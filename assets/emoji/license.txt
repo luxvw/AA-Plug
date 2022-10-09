@@ -1,0 +1,27 @@
+
+Aru by _SiC_
+Source: https://weibo.com/silenthiker
+License: no specific license
+
+Blob Cat Emoji and Meowmoji by Nitro Blob Hub
+License: Apache 2.0
+License URL: https://github.com/googlei18n/noto-emoji/blob/master/LICENSE
+
+Twemoji graphic parts
+License: CC-BY 4.0
+License URL: https://github.com/twitter/twemoji/blob/master/LICENSE-GRAPHICS
+
+Pika by Troy
+Source: https://emoji.gg/user/769026070800236584
+License: emoji.gg basic license
+License URL: https://emoji.gg/licenses
+
+Epic face
+License: dunno
+
+
+the rest
+emoji.gg basic license
+or
+dunno
+
