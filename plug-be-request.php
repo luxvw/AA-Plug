@@ -51,6 +51,10 @@ function cb_autopost( $new_status, $old_status, $post ) {
 	$term_list = get_the_terms( $post, 'post_tag' );
 	if ( is_array( $term_list ) ) {
 		$tags = array_merge( $tags, wp_list_pluck( $term_list, 'name' ) );
+		foreach ( $tags as $k => $v ) {
+			$tags[$k] = str_replace(' ', '_', $v);
+			$tags[$k] = str_replace(['/','-'], '', $tags[$k]);
+		}
 	}
 	$tags = empty( $tags ) ? '' : '#' . implode(' #', $tags);
 
